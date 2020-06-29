@@ -9,14 +9,6 @@
 
 ![](https://raw.githubusercontent.com/Tsunami-Song/2020-ppsuc-graduation/master/qrcode.jpg)
 
-## 生成头像示例
-
-![](https://raw.githubusercontent.com/Tsunami-Song/2020-ppsuc-graduation/master/wearcap.jpg)
-
-## 海报示例
-
-![](https://raw.githubusercontent.com/Tsunami-Song/2020-ppsuc-graduation/master/poster.jpg)
-
 ## 项目依赖
 
 * [idealclover/Wear-Bachelor-Cap](https://github.com/idealclover/Wear-Bachelor-Ca)
