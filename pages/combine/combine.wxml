@@ -16,12 +16,7 @@
     <button class="flex-sub padding-sm margin-xs radius cu-btn bg-red margin-tb-sm lg" bind:tap="savePic">保存至相册</button>
   </view>
 </view>
-<view class="flex footer justify-center align-center">
- 
-  <button class="cu-btn footer-item text-blue" open-type="share">
-    <view class="cuIcon-forward">分享给朋友</view>
-  </button>
-</view>
+
 
 <poster id="poster" config="{{posterConfig}}" hideLoading="true" bind:success="onPosterSuccess" bind:fail="onPosterFail">
 </poster>

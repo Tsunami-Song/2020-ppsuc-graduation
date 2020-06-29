@@ -44,7 +44,7 @@ Page({
     pc.draw();
   },
   savePic() {
-    wx.showLoading({ mask: true, title: '生成中' })
+    wx.showLoading({ mask: true, title: '海报生成中' })
     wx.canvasToTempFilePath({
       x: 0,
       y: 0,
@@ -84,26 +84,26 @@ Page({
       this.setData({
         successNum: successNum + 1,
         posterConfig: {
-          width: 1240,
-          height: 1754,
+          width: 1080,
+          height: 1527,
           backgroundColor: "#fff",
           debug: false,
           pixelRatio: 1,
           blocks: [],
           texts: [],
           images: [{
-            width: 1240,
-            height: 1754,
+            width: 1080,
+            height: 1527,
             x: 0,
             y: 0,
             borderRadius: 0,
             url: "/image/posters/" + (successNum + 1) + ".jpg"
           },
           {
-            width: 656,
-            height: 656,
-            x: 292,
-            y: 246,
+            width: 360,
+            height: 360,
+            x: 127,
+            y: 380,
             url: app.globalData.successPic
           },
           ]

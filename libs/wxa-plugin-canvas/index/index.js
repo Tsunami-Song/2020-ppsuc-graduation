@@ -317,6 +317,7 @@ const helper = {
         return new Promise((resolve, reject) => {
             if (/^http/.test(imageUrl) && !new RegExp(wx.env.USER_DATA_PATH).test(imageUrl)) {
                 wx.downloadFile({
+                    //url: shareInfo.userphoto.replace('http://thirdwx.qlogo.cn', 'https://wx.qlogo.cn'),
                     url: this._mapHttpToHttps(imageUrl),
                     success: (res) => {
                         if (res.statusCode === 200) {

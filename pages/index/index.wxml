@@ -22,9 +22,16 @@
 
   <button class="flex-sub padding-lr-sm margin-xs radius cu-btn bg-red margin-tb-sm lg" bind:tap="combinePic" disabled="{{!picChoosed}}">生成头像</button>
 </view>
-<view class="flex footer justify-center align-center">
 
-  <button class="cu-btn footer-item text-blue" open-type="share">
-      <view class="cuIcon-forward">分享给朋友</view>
-  </button>
+<view class="flex justify-center align-center">
+  <view>
+    Copyright © 2018-2020<text decode="{{true}}">&ensp;</text>
+  </view>
+     <view>
+      idealclover
+    </view>
+
+</view>
+<view class="flex justify-center align-center padding-tb-xs">
+    感谢四年无悔的藏蓝青春
 </view>

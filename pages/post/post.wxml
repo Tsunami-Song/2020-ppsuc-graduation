@@ -19,5 +19,11 @@
   <button class="cu-btn footer-item text-blue" open-type="share">
     <view class="cuIcon-forward">分享给朋友</view>
   </button>
+
 </view>
+<view class="flex justify-center align-center padding-tb-xs">
+    Design By: 孤木成林
+
+</view>
+
 
