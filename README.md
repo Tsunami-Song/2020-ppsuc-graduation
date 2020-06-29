@@ -7,15 +7,15 @@
 
 ## 扫码预览
 
-![](https://github.com/Tsunami-Song/2020-ppsuc-graduation/qrcode.jpg)
+![](https://raw.githubusercontent.com/Tsunami-Song/2020-ppsuc-graduation/master/qrcode.jpg)
 
 ## 生成头像示例
 
-![](https://github.com/Tsunami-Song/2020-ppsuc-graduation/wearcap.jpg)
+![](https://raw.githubusercontent.com/Tsunami-Song/2020-ppsuc-graduation/master/wearcap.jpg)
 
 ## 海报示例
 
-![](https://github.com/Tsunami-Song/2020-ppsuc-graduation/poster.jpg)
+![](https://raw.githubusercontent.com/Tsunami-Song/2020-ppsuc-graduation/master/poster.jpg)
 
 ## 项目依赖
 
