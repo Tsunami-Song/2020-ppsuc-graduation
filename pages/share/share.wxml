@@ -1,0 +1,42 @@
+<!--pages/share.wxml-->
+<view>
+  <view class="flex justify-center padding-top-lg text-xsl">
+    <text class=" cuIcon-roundcheckfill text-green"></text>
+  </view>
+  <view class="flex justify-center padding-top-lg text-xxl">
+    <text class="text-bold">保存成功</text>
+  </view>
+  <view class="flex justify-center padding-lg text-xxl">
+    <text>生成的头像已经保存到相册 OωO</text>
+  </view>
+  <!-- <view class="flex">
+    <button class="flex-sub padding-sm margin-xs radius cu-btn bg-red margin-tb-sm lg">看段广告支持我们！</button>
+  </view> -->
+  <view class="flex">
+    <navigator target="miniProgram" open-type="exit" class="flex-sub padding-sm margin-xs radius cu-btn line-red text-red margin-tb-sm lg">去发个朋友圈！</navigator>
+  </view>
+
+  <!-- <view class="flex">
+    <button class="flex-sub padding-sm margin-xs radius cu-btn line-red text-red margin-tb-sm lg">看段广告支持我</button>
+  </view> -->
+</view>
+<view class="flex footer justify-center align-center">
+
+  <view class="cu-btn footer-item text-blue" bind:tap="actionSheetTap">
+    <view class="cuIcon-forward">分享给朋友</view>
+  </view>
+</view>
+<!--默认action-sheet为隐藏，由button触发-->
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="listenerActionSheet">
+  <action-sheet-item>
+    <button open-type="share">分享给好友</button>
+  </action-sheet-item>
+  <action-sheet-item>
+    <poster id="poster" config="{{posterConfig}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">
+      <button>生成分享海报</button>
+    </poster>
+  </action-sheet-item>
+  <!--自动隐藏action-sheet-->
+  <action-sheet-cancel>取消</action-sheet-cancel>
+</action-sheet>
+

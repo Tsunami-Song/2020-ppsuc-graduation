@@ -1,0 +1,27 @@
+<view>
+  <view class="flex padding justify-center">
+    <canvas class="myCanvas" canvas-id="myCanvas" style="height:300px;width:300;" />
+  </view>
+  <!-- <radio-group class="block">
+    <view class="cu-form-group margin-top">
+      <view class="title">不添加头像框</view>
+      <radio class="red" checked></radio>
+    </view>
+    <view class="cu-form-group">
+      <view class="title">添加 <div style="font-weight:bold;">南京大学</div> 专属头像框</view>
+      <radio class="red"></radio>
+    </view>
+  </radio-group> -->
+  <view class="flex">
+    <button class="flex-sub padding-sm margin-xs radius cu-btn bg-red margin-tb-sm lg" bind:tap="savePic">保存至相册</button>
+  </view>
+</view>
+<view class="flex footer justify-center align-center">
+ 
+  <button class="cu-btn footer-item text-blue" open-type="share">
+    <view class="cuIcon-forward">分享给朋友</view>
+  </button>
+</view>
+
+<poster id="poster" config="{{posterConfig}}" hideLoading="true" bind:success="onPosterSuccess" bind:fail="onPosterFail">
+</poster>
